@@ -34,6 +34,8 @@ class Checkout extends Component {
     };
 
     render() {
+
+        console.log('here3', this.state.ingredients);
         return (
             <div>
                 <CheckoutSummary
