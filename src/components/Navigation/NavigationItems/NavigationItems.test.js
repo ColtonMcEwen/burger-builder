@@ -9,7 +9,7 @@ configure({ adapter: new Adapter() });
 
 describe('<NavigationItems />', () => {
     let wrapper;
-    
+
     beforeEach(() => {
         wrapper = shallow(<NavigationItems />);
     });
